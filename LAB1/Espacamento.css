@@ -1,0 +1,11 @@
+<style>
+        /* Estilos para adicionar espaçamento */
+        form {
+            margin-bottom: 20px; /* Espaço entre o formulário e o elemento anterior */
+        }
+        form input,
+        form label,
+        form br {
+            margin-bottom: 10px; /* Espaço entre os elementos do formulário */
+        }
+</style>

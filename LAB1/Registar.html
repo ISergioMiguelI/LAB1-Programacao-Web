@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Registro de Conta</title>
     <link rel="stylesheet" href="Style.css">
+    <script src="validar.js"></script>
+
     <style>
 
         .center {
@@ -15,7 +17,7 @@
         .container {
             width: 300px;
             margin: 0 auto;
-            text-align: center;
+   </form>         text-align: center;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -54,11 +56,13 @@
 <body>
     <div class="container">
         <h2>Registro</h2>
-        <form>
+        
+        <form id = "Registro" onsubmit="return validateForm()">
+            <a href="Lab1.html"><img src="ipvc2.jpg" alt="IPVC" width="40%" length="40%" class="center"></a>
             <input type="text" id="username" name="username" placeholder="Nome de usuário" required><br>
             <input type="text" id="email" name="email" placeholder="Email" required><br>
             <input type="password" id="password" name="password" placeholder="Senha" required><br>
-            <input type="text" id="re-type password" name="re-type password" placeholder="Re-type password" required><br>
+            <input type="password" id="re-type password" name="re-type password" placeholder="Re-type password" required><br>
 
             <label for="checkbox">Aceito os termos e condições</label>
             <input type="checkbox" id="checkbox" name="checkbox" required><br>
