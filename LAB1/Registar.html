@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Style.css">
     <script src="validar.js"></script>
     <script src="voltar.js"></script>
+    <script src="verificaspasse.js"></script>
 
     <style>
 
@@ -65,12 +66,14 @@
         <h2>Registrar</h2>
 
            <form id = "Registro" onsubmit="return validateForm()">
+        <form id = "password" onsubmit="return verificaspasse()">
+
             <a href="Lab1.html"><img src="ipvc2.jpg" alt="IPVC" width="40%" length="40%" class="center"></a>
             <br>
             <input type="text" id="username" name="username" placeholder="Nome de usuário" required><br>
             <input type="text" id="email" name="email" placeholder="Email" required><br>
-            <input type="password" id="password" name="password" placeholder="Senha" required><br>
-            <input type="password" id="re-type password" name="re-type password" placeholder="Re-type password" required><br>
+            <input type="password" id="password" name="password" placeholder="Senha" required ><br>
+            <input type="password" id="retypePassword" name="retypePassword" placeholder="Re-type password" required><br>
 
             <label for="checkbox">Aceito os termos e condições</label>
             <input type="checkbox" id="checkbox" name="checkbox" required><br>
