@@ -36,3 +36,160 @@ body {
     opacity: 0.9;
   }
 
+  /* General styles */
+
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #212529;
+  color: #fff;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #333;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  color: #fff;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+}
+
+.modal-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.modal-title {
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #fff;
+  color: #333;
+}
+
+.modal-footer {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* Specific styles */
+
+.container {
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.img-thumbnail {
+  border: 1px solid #ccc;
+}
+
+.task-manager {
+  text-align: center;
+}
+
+.task-manager h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.task-manager .mb-3 {
+  margin-bottom: 20px;
+}
+
+.task-manager table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.task-manager table th,
+.task-manager table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.task-manager table th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.task-manager table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.task-manager table input[type="checkbox"] {
+  margin: 0;
+}
+
+.task-manager .modal {
+  padding: 20px;
+}
+
+.task-manager .modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.task-manager .modal-body {
+  padding: 30px;
+}
+
+.task-manager .modal-footer {
+  padding: 15px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
